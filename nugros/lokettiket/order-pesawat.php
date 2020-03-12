@@ -10,7 +10,11 @@
 	  'Allow http request',
 	  'Modul Error Log Developer',
 	  'Update SDK Midtrans',
-  )
+	  'Perbaikan error modul midtrans yang tidak tampil saat pembayaran pada Android 9 (Pie)',
+	  'Penambahan request timeout menjadi 50 detik, untuk antisipasi proses booking saat kondisi sibuk',
+  );
+  $file_apk = 'apk/app-sandbox-release-5.apk';
+  $file_video = '1A-S0Lg3PPaNxHrwW2WnlzhUVURpKsdwU';
 ?>
 <!DOCTYPE html> 
 <html> 
@@ -34,7 +38,8 @@
 			<h1 class="display-4"><?= $title; ?></h1>
 			<p class="lead"><?= $description; ?></p>
 			<hr class="my-4">
-			<a class="btn btn-primary btn-lg" href="apk/app-sandbox-release-4.apk" role="button">Download APK</a>
+			<a class="btn btn-primary btn-lg" href="<?= $file_apk; ?>" role="button">Download APK</a>
+			<a class="btn btn-warning btn-lg" href="https://simulator.sandbox.midtrans.com/assets/index.html" target="_blank" role="button">Simulator Pembayaran</a>
 		</div>
 		<div class="my-3 p-3 bg-white rounded shadow-sm">
 			<h6 class="border-bottom border-gray pb-2 mb-0">Update</h6>
@@ -49,9 +54,11 @@
 		<div style="text-align: center">
 			<h1 class="display-4">Preview</h1>
 			<video width="auto" height="auto" controls>
-			<source src="https://drive.google.com/uc?export=download&id=1A-S0Lg3PPaNxHrwW2WnlzhUVURpKsdwU" type="video/mp4">
+			<source src="https://drive.google.com/uc?export=download&id=<?= $file_video; ?>" type="video/mp4">
 				Your browser does not support HTML5 video.
-			</video>
+			</video><br>
+			<a class="btn btn-success" href="https://drive.google.com/open?id=<?= $file_video; ?>">Download Video</a>
+			<br><br>
 		</div>
 	</div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
