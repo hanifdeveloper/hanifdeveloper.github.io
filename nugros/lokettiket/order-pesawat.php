@@ -34,7 +34,7 @@
 			<h1 class="display-4"><?= $title; ?></h1>
 			<p class="lead"><?= $description; ?></p>
 			<hr class="my-4">
-			<a class="btn btn-primary btn-lg" href="apk/app-sandbox-release-3.apk" role="button">Download APK</a>
+			<a class="btn btn-primary btn-lg" href="apk/app-sandbox-release-4.apk" role="button">Download APK</a>
 		</div>
 		<div class="my-3 p-3 bg-white rounded shadow-sm">
 			<h6 class="border-bottom border-gray pb-2 mb-0">Update</h6>
