@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
 <body> 
+	<br>
 	<div class="container">
 		<div class="jumbotron">
 			<h1 class="display-4"><?= $title; ?></h1>
@@ -36,6 +37,7 @@
 		</div>
 		<div class="my-3 p-3 bg-white rounded shadow-sm">
 			<h6 class="border-bottom border-gray pb-2 mb-0">Update</h6>
+			<br>
 			<ul>
 				<?php foreach ($update as $item): ?>
 				<li><?= $item; ?></li>
