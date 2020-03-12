@@ -9,6 +9,7 @@
 	  'Status perubahan Booking tiket pesawat masih manual (belum menggunakan api ticketed, menunggu UAT)',
 	  'Allow http request',
 	  'Modul Error Log Developer',
+	  'Update SDK Midtrans',
   )
 ?>
 <!DOCTYPE html> 
