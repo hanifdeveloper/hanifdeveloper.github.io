@@ -12,8 +12,9 @@
 	  'Update SDK Midtrans',
 	  'Perbaikan error modul midtrans yang tidak tampil saat pembayaran pada Android 9 (Pie)',
 	  'Penambahan request timeout menjadi 50 detik, untuk antisipasi proses booking saat kondisi sibuk',
+	  'Penambahan JAR Signature (apk)'
   );
-  $file_apk = 'apk/app-sandbox-release-5.apk';
+  $file_apk = 'apk/app-sandbox-release-6.apk';
   $file_video = '1A-S0Lg3PPaNxHrwW2WnlzhUVURpKsdwU';
 ?>
 <!DOCTYPE html> 
